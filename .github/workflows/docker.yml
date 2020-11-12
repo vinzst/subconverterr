@@ -24,7 +24,7 @@ jobs:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
         run: |
-          echo "${DOCKER_PASSWORD}" | docker login --vinzst "${DOCKER_USERNAME}" --vinzst-stdin
+          echo "${DOCKER_PASSWORD}" | docker login --username "${DOCKER_USERNAME}" --password-stdin
       
       - name: Docker buildx image and push on master branch
         if: github.ref == 'refs/heads/master'
