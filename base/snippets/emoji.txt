@@ -19,7 +19,7 @@ EU,🇪🇺
 (葡萄牙|Portugal),🇵🇹
 (Finland|芬兰|赫尔辛基),🇫🇮
 (FR|France|法国|巴黎),🇫🇷
-(?i:UK|England|United.*?Kingdom|英国|[^-]英|伦敦),🇬🇧
+(?i:UK|England|United.*?Kingdom|英国|英國|[^-]英|伦敦),🇬🇧
 (?i:HK|Hong.*?Kong|HKT|HKBN|HGC|WTT|CMI|[^-]港),🇭🇰
 (Indonesia|印尼|印度尼西亚|雅加达),🇮🇩
 (Ireland|爱尔兰|都柏林),🇮🇪
@@ -31,7 +31,7 @@ EU,🇪🇺
 (MO|Macao|澳门|CTM),🇲🇴
 (MY|Malaysia|马来西亚),🇲🇾
 (NL|Netherlands|荷兰|阿姆斯特丹),🇳🇱
-(PH|Philippines|菲律宾),🇵🇭
+(PH|Philippines|菲律宾|菲律賓),🇵🇭
 (RO|罗马尼亚),🇷🇴
 (RU|Russia|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|哈巴罗夫斯克|俄罗斯|俄国|[^-]俄),🇷🇺
 (沙特|迪拜),🇸🇦
@@ -39,8 +39,8 @@ EU,🇪🇺
 (SG|Singapore|新加坡|狮城|[^-]新),🇸🇬
 (TH|Thailand|泰国|曼谷),🇹🇭
 (TR|Turkey|土耳其|伊斯坦布尔),🇹🇷
-(?i:US|America|United.*?States|美国|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥),🇺🇸
+(?i:US|America|United.*?States|美国|美國|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥),🇺🇸
 (VN|越南),🇻🇳
 (ZA|南非),🇿🇦
-(?i:TW|Taiwan|新北|彰化|CHT|台湾|[^-]台|HINET),🇨🇳
+(?i:TW|Taiwan|新北|彰化|CHT|台湾|台灣|[^-]台|HINET),🇨🇳
 (?i:CN|China|回国|中国|江苏|北京|上海|广州|深圳|杭州|常州|徐州|青岛|宁波|镇江|成都|back),🇨🇳
